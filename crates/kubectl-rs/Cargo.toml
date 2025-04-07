@@ -1,0 +1,15 @@
+[package]
+name = "kubectl-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+description = "A Rust-based Kubernetes CLI tool"
+
+[dependencies]
+k8s-openapi = { workspace = true }
+kube = { workspace = true }
+clap = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+chrono = { workspace = true } 
